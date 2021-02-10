@@ -17,3 +17,9 @@ install:
 script:
   - cd decide
   - ./manage.py test
+<<<<<<< HEAD
+=======
+branches:
+  only:
+  - master
+>>>>>>> desarrollo
