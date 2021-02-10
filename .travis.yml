@@ -20,3 +20,10 @@ script:
 branches:
   only:
   - master
+deploy:
+  provider: heroku
+  app: examen10-02-21
+  strategy: git
+  api_key: $HEROKU_AUTH_TOKEN
+  on:
+    branch: master
