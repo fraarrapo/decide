@@ -25,6 +25,6 @@ deploy:
   provider: heroku
   app: examen10-02-21
   strategy: git
-  api_key: $HEROKU_AUTH_TOKEN
+  api_key: f8a0b06e-e790-4784-960a-6c02f4afd49c
   on:
     branch: master
